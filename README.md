@@ -288,7 +288,7 @@ end)
 
 CreateElement("TFrame", function()
 	local TFrame = Create("Frame", {
-		BackgroundTransparency = 0.5
+		BackgroundTransparency = 1
 	})
 	return TFrame
 end)
@@ -1760,4 +1760,3 @@ function OrionLib:Destroy()
 end
 
 return OrionLib
-
